@@ -18,3 +18,11 @@ let nums = [8,4,1,2,2,3];
 //console.log(nums.sort());
 
 console.log(smallNumber(nums));
+
+//VND format
+const formatVND = (amount, prefix = '.') => {
+  if (!amount) return null
+  let a = amount.toString().replace(/\B(?=(\d{3})+(?!\d))/g, prefix)
+  return a
+}
+
