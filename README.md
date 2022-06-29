@@ -59,3 +59,5 @@ const s = 'aaaaabc'
 isValid(s)
 //=> NO
 
+ Intl.NumberFormat
+
