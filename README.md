@@ -60,4 +60,7 @@ isValid(s)
 //=> NO
 
  Intl.NumberFormat
+ 
+ //replace special character
+ url.replace(/\\/g, "/")
 
